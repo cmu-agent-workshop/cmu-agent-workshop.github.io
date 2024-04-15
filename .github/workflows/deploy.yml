@@ -50,11 +50,10 @@ jobs:
             exit 1
           fi
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: "lts/*"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          bun-version: latest
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
