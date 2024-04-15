@@ -11,6 +11,17 @@ export default {
     },
     edit: {
         content: null,
-    }
+    },
+    footer: {
+        text: (
+          <span>
+            MIT {new Date().getFullYear()} ©{' '}
+            <a href="https://zhuhao.me" target="_blank">
+              Hao Zhu
+            </a>
+            .
+          </span>
+        )
+      }
     // ... other theme options
   }
