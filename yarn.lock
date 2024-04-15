@@ -3504,9 +3504,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"siarheibobryk.github.io@workspace:.":
+"cmu-agent-workshop.github.io@workspace:.":
   version: 0.0.0-use.local
-  resolution: "siarheibobryk.github.io@workspace:."
+  resolution: "cmu-agent-workshop.github.io@workspace:."
   dependencies:
     "@types/node": "npm:20.12.7"
     "@types/react": "npm:18.2.77"
