@@ -1,3 +1,5 @@
+import { useRouter } from 'next/router'
+
 export default {
     logo: <span>Agent Workshop @ Carnegie Mellon University</span>,
     project: {
@@ -22,6 +24,14 @@ export default {
             .
           </span>
         )
-      }
+    },
+    useNextSeoProps() {
+        const { asPath } = useRouter()
+        if (asPath !== '/') {
+          return {
+            titleTemplate: '%s – Agent Workshop @ CMU',
+          }
+        }
+    },
     // ... other theme options
   }
