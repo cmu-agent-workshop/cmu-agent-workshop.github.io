@@ -31,6 +31,13 @@ export default {
           return {
             titleTemplate: '%s – Agent Workshop @ CMU',
             description: 'Agent Workshop 2024 brings together researchers and practitioners in the field of AI. The workshop will be held at Carnegie Mellon University, Pittsburgh, PA, USA.',
+            openGraph: {
+                type: 'website',
+                locale: 'en_US',
+                url: 'https://cmu-agent-workshop.github.io/',
+                siteName: 'Agent Workshop @ CMU',
+                description: 'Agent Workshop 2024 brings together researchers and practitioners in the field of AI. The workshop will be held at Carnegie Mellon University, Pittsburgh, PA, USA.',
+            }
           }
         }
     },
