@@ -1,5 +1,10 @@
 export default {
-    logo: <span>Agent Workshop @ Carnegie Mellon University</span>,
+    logo: (
+      <>
+        <img width="36" height="36" src="/logo.png" alt="Agent Workshop @ CMU" />
+        <span style={{ marginLeft: '.4em', fontWeight: 800 }}>Agent Workshop @ Carnegie Mellon University</span>
+      </>
+    ),
     project: {
       link: 'https://cmu-agent-workshop.github.io/',
     },
