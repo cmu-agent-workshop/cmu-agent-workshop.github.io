@@ -1,7 +1,7 @@
 export default {
     logo: (
       <>
-        <img width="36" height="36" src="/logo.png" alt="Agent Workshop @ CMU" />
+        <img width="36" height="36" src="/logo.svg" alt="Agent Workshop @ CMU" />
         <span style={{ marginLeft: '.4em', fontWeight: 800 }}>Agent Workshop @ Carnegie Mellon University</span>
       </>
     ),
@@ -28,6 +28,12 @@ export default {
           </span>
         )
     },
+    head: (
+      <>
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+        <link rel="icon" href="/icon.ico" type="image/ico" />
+      </>
+    ),
     useNextSeoProps() {
         return {
         titleTemplate: '%s – Agent Workshop @ CMU',
