@@ -36,8 +36,8 @@ export default {
     ),
     useNextSeoProps() {
         return {
-        titleTemplate: '%s – Agent Workshop @ CMU',
-        description: 'Agent Workshop 2024 brings together researchers and practitioners in the field of AI. The workshop will be held at Carnegie Mellon University, Pittsburgh, PA, USA.',
+        titleTemplate: '%s – LLM Agents workshop at CMU May 2-3',
+        description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on May 2-3.',
         openGraph: {
             type: 'website',
             images: [
@@ -47,8 +47,8 @@ export default {
             ],
             locale: 'en_US',
             url: 'https://cmu-agent-workshop.github.io/',
-            siteName: 'Agent Workshop @ CMU',
-            description: 'Agent Workshop 2024 brings together researchers and practitioners in the field of AI. The workshop will be held at Carnegie Mellon University, Pittsburgh, PA, USA.',
+            siteName: 'LLM Agents workshop at CMU May 2-3',
+            description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on May 2-3.',
         },
         twitter: {
             cardType: 'summary_large_image',
