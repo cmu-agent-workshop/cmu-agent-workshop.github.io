@@ -3,5 +3,7 @@
     "schedule": "Schedule",
     "speakers": "Speakers",
     "calls": "Calls",
-    "posters": "Posters"
+    "posters": "Posters",
+    "seminar": "Seminar",
+    "hackathon": "Hackathon"
   }
