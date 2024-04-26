@@ -1,10 +1,9 @@
 {
     "index": "Homepage",
+    "social_agent": "Social Agent Seminar",
     "schedule": "Schedule",
     "speakers": "Speakers",
     "poster": "Poster Session",
-    "social_agent": "Social Agent Seminar",
-    "about": "About Us",
     "tutorials": "Tutorials",
     "hackathon": "Hackathon"
   }
