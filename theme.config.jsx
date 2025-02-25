@@ -36,8 +36,8 @@ export default {
     ),
     useNextSeoProps() {
         return {
-        titleTemplate: '%s – LLM Agents workshop at CMU May 2-3',
-        description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on May 2-3.',
+        titleTemplate: '%s – LLM Agents workshop at CMU April 10-11',
+        description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on April 10-11.',
         openGraph: {
             type: 'website',
             images: [
@@ -47,8 +47,8 @@ export default {
             ],
             locale: 'en_US',
             url: 'https://cmu-agent-workshop.github.io/',
-            siteName: 'LLM Agents workshop at CMU May 2-3',
-            description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on May 2-3.',
+            siteName: 'LLM Agents workshop at CMU April 10-11',
+            description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on April 10-11.',
         },
         twitter: {
             cardType: 'summary_large_image',
