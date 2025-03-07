@@ -22,7 +22,7 @@ export default {
           <span>
             MIT {new Date().getFullYear()} ©{' '}
             <a href="https://zhuhao.me" target="_blank">
-              Hao Zhu
+              CMU Agent Workshop Organizers
             </a>
             .
           </span>
