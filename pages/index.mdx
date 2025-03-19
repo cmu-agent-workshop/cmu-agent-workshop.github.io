@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import cover from '../public/banner.gif';
-import ardent from '../public/ardent_400x400.jpg';
 import { Bleed } from 'nextra-theme-docs'
-
+import scale from '../public/2025_sponsors/scaleai.png';
+import ardent_logo from '../public/2025_sponsors/ardent.png';
 
 # Welcome to CMU Agent Workshop, 2025!
 
@@ -30,4 +30,26 @@ Some of the topics that you might be interested in that may appear in the worksh
 - Ethics and societal impact of LLM agents (jobs, economic impact, effects on underrepresented population, effects on accessibility, etc.)
 
 ## Sponsors
-...
+
+<div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', paddingTop: '1rem', alignItems: 'center' }}>
+  <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Image 
+      src={scale} 
+      alt="Sponsor 1" 
+      width={100} 
+      height={100}  
+	/>
+    <strong style={{ marginTop: '0.5rem' }}>Gold Sponsor</strong>
+  </div>
+  <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Image 
+	  src={ardent_logo} 
+	  alt="Sponsor 1" 
+	  width={220} 
+	  height={100} 
+	/>
+    <strong style={{ marginTop: '0.5rem' }}>Sponsor</strong>
+  </div>
+</div>
+
+If your organization is interested in sponsoring the workshop, please contact cmu-agent-workshop@andrew.cmu.edu
